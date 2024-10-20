@@ -89,7 +89,6 @@ class VIPPatron extends Patron {
         this.priority = priority;
     }
 
-    // Overriding the borrowBook method
     borrowBook(book) {
         if (book.isAvailable) {
             super.borrowBook(book);
